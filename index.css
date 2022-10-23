@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    width: 200px;
+    margin: 0 0 50px 0;
+}
+
+.navbar {
+    height: 70px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_text {
+    font-size: 28px;
+    color: white;
+    margin: 0;
+}
+
+.contacts-big {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.dropdown {
+    display: none;
+}
+
+.contacts-big > a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    color: #D41E1E;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.main-container {
+    padding: 120px 0 10px 0;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.main-image {
+    max-width: 300px;
+}
+
+.text-container {
+    color: #212529;
+    text-align: left;
+}
+
+.text-container > p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.price-header {
+    text-align: center;
+    font-weight: 600;
+}
+
+.price-container {
+    padding: 50px 0;
+}
+
+.price-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.card-header {
+    font-weight: 600;
+}
+
+.card-body {
+    display: flex; 
+    align-items: center;
+}
+
+.price-image {
+    height: 250px;
+    width: 200px;
+}
+
+.image {
+    object-fit: center;
+    height: 100%;
+}
+
+.list-group {
+    width: 100%;
+}
+
+@media screen and (max-width: 994px) {
+    .price-content {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar > .container {
+        justify-content: center;
+    }
+    
+    .navbar_text {
+        font-size: 18px;
+    }
+    
+    .contacts-big {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    
+    .contacts > a {
+        font-size: 14px;
+    }
+    
+    .logo {
+        font-size: 18px;
+    }
+
+    .contacts {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .main-container {
+        grid-template-columns: auto;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+    
+    .text-container > p {
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 521px) {
+    .price-image {
+        height: 150px;
+        width: 100px;
+    }
+
+    .card-body {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .contacts-big {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .text {
+        flex-direction: column;
+    }
+
+    .navbar_text {
+        font-size: 14px;
+    }
+}
