@@ -93,6 +93,10 @@ hr {
     gap: 40px;
 }
 
+.card {
+    margin: 0 15px;
+}
+
 .card-header {
     font-weight: 600;
 }
@@ -120,7 +124,6 @@ hr {
     .price-content {
         display: grid;
         grid-template-columns: auto;
-        gap: 30px;
     }
 }
 
