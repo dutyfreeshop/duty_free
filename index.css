@@ -96,6 +96,11 @@ hr {
     margin: 0 15px;
 }
 
+.card-width {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 .card-header {
     font-weight: 600;
 }
@@ -119,11 +124,22 @@ hr {
     width: 100%;
 }
 
+.list-group-width {
+    display: grid; 
+    grid-template-columns: auto auto;
+}
+
 @media screen and (max-width: 994px) {
-    .price-content {
-        display: grid;
+    .card {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .list-group-width {
+        display: grid; 
         grid-template-columns: auto;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
