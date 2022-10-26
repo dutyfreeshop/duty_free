@@ -96,6 +96,10 @@ hr {
     margin: 0 15px;
 }
 
+.bottle-hr {
+    display: none;
+}
+
 .card-width {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -201,6 +205,11 @@ hr {
 
     .dropdown {
         display: block;
+    }
+
+    .bottle-hr {
+        display: block;
+        margin: 15px 0;
     }
 }
 
