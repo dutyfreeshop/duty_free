@@ -72,6 +72,18 @@ hr {
     font-size: 26px;
 }
 
+.bold-text {
+    font-weight: 600;
+}
+
+.underline-red {
+    text-decoration: #D41E1E solid underline;
+}
+
+.underline-blue {
+    text-decoration: #0d6efd underline dotted;
+}
+
 .img-container {
     display: flex;
     justify-content: center;
